@@ -32,7 +32,7 @@ int main()
 {
     ll accnumber;
     cout << "This program uses the Luhn Algorigthm to validate a CC number." << endl;
-    cout << "You can enter 'exit' anytime to quit." << endl;
+
     cout << "Please enter a Credit Card number to validate: ";
     cin >> accnumber;
     if (to_string(accnumber) == "exit")
